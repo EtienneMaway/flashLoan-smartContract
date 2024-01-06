@@ -2,15 +2,21 @@
 
 Welcome to the FlashLoan smart contract repository! This contract facilitates flash loans on the Ethereum blockchain, allowing users to borrow assets temporarily without the need for collateral.
 
-## Overview 🌐
-
-The FlashLoan smart contract is developed using JavaScript, Solidity, and Hardhat. It is designed to provide an efficient and secure implementation of flash loans on the Ethereum blockchain. Users can initiate flash loans, borrowing assets for a single transaction.
-
 ## Features 🚀
 
 - **Flash Loan Request:** Users can initiate flash loan requests by specifying the token path, amounts, and other parameters.
 
 - **Flash Loan Callback:** The contract includes a callback function to handle the flash loan execution, including multiple swaps and the repayment of the loan.
+
+## Tech Stacks 🛠️
+
+- **Typescript:** Used for developing the backend logic and interactions of the FlashLoan smart contract. TypeScript brings strong typing to the JavaScript language, enhancing code readability and maintainability.
+
+- **Solidity:** Utilized for developing the smart contract that runs on the Ethereum Virtual Machine (EVM). Solidity is a purpose-built language for smart contract development, providing security features and compatibility with the Ethereum blockchain.
+
+- **Hardhat:** Employed as the development environment and testing framework. Hardhat streamlines the smart contract development process by offering tools for compiling, deploying, and testing contracts, making the development workflow efficient and reliable.
+
+It is designed to provide an efficient and secure implementation of flash loans on the Ethereum blockchain. Users can initiate flash loans, borrowing assets for a single transaction.
 
 ## Getting Started 🏁
 
